@@ -1,0 +1,13 @@
+<div class="h-100 d-flex flex-column align-items-center justify-content-center">
+   <form class="login-container needs-validation" novalidate #form="ngForm" (submit)="onSubmit()">
+      <h4 class="form-title">LOGIN</h4>
+      <app-required-field placeholder="Username" name="username" ngModel></app-required-field>
+      <app-required-field type="password" placeholder="Password" name="password" ngModel></app-required-field>
+      <button type="submit" [disabled]="!form.valid" class="btn btn-primary">
+         Sign in
+      </button>
+   </form>
+   <div class="login-container mt-4 alert alert-info" role="alert">
+      Type any username and password to login
+   </div>
+</div>

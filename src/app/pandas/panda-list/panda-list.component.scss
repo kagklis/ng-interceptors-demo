@@ -1,0 +1,31 @@
+.panda-list {
+   display: block;
+   height: 100%;
+   border: 1px dashed rgba(128, 128, 128, 0.25);
+   border-radius: 8px;
+   margin-bottom: 8px;
+}
+
+.item {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 70px;
+   border: 1px solid rgba(128, 128, 128, 0.25);
+   border-radius: 8px;
+   margin-bottom: 8px;
+   padding: 10px;
+
+   .content {
+      width: 100%;
+   }
+
+   &:last-child {
+      margin-bottom: 0px;
+   }
+
+   &:hover {
+      background: #dde8fd;
+      cursor: pointer;
+   }
+}
