@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthInterceptor } from './services/interceptors/auth.interceptor';
 import { CacheInterceptor } from './services/interceptors/cache.interceptor';
-import { LogInterceptor } from './services/interceptors/logging.interceptor';
+import { LogInterceptor } from './services/interceptors/log.interceptor';
 import { MockInterceptor } from './services/interceptors/mock.interceptor';
 import { SharedModule } from './shared/shared.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
